@@ -1,0 +1,28 @@
+{
+    "name": "shyam/log-my-queries",
+    "description": "Laravel middleware to Log all queries being fired to Laravel log file. Uses Laravel's default monolog library and sniffs Eloquent queries",
+    "type": "laravel plugin, laravel middleware",
+    "keywords": [
+        "Middleware",
+        "Laravel",
+        "Log queries",
+        "laravel"
+    ],
+    "require": {
+        "laravel/laravel": ">=5.4"
+    },
+    "homepage": "http://shyammakwana.me",
+    "authors": [
+        {
+            "name": "Shyam Makwana",
+            "email": "shyam.makwana18@gmail.com",
+            "homepage": "http://shyammakwana.me",
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "technoknol\\LoyMyQueries\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

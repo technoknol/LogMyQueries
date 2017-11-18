@@ -22,6 +22,5 @@
         "psr-4": {
             "technoknol\\LoyMyQueries\\": "src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }

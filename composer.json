@@ -1,5 +1,5 @@
 {
-    "name": "shyam/log-my-queries",
+    "name": "technoknol/log-my-queries",
     "description": "Laravel middleware to Log all queries being fired to Laravel log file. Uses Laravel's default monolog library and sniffs Eloquent queries",
     "type": "laravel plugin, laravel middleware",
     "keywords": [

@@ -5,8 +5,7 @@
     "keywords": [
         "Middleware",
         "Laravel",
-        "Log queries",
-        "laravel"
+        "Log Queries",
     ],
     "require": {
         "laravel/laravel": ">=5.4"

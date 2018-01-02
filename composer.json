@@ -8,7 +8,7 @@
         "Log Queries"
     ],
     "require": {
-        "php": "^5.5.9 || ^7.0",
+        "php": "^5.5.9 || ^7.0"
     },
     "license": "MIT",
     "homepage": "http://shyammakwana.me",

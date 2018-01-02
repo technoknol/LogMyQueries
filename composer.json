@@ -21,7 +21,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "technoknol\\LoyMyQueries\\": "src/"
+            "technoknol\\LogMyQueries\\": "src/"
         }
     }
 }

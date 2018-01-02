@@ -23,7 +23,7 @@ class LogMyQueriesMiddleware
 
     public function terminate() {
 
-        Log::debug('LogMyQueries_STARTED');
+        Log::debug('LogMyQueries_START');
         $queries = DB::getQueryLog();
         foreach ($queries as $query) :
             $prep = $query['query'];
@@ -35,6 +35,6 @@ class LogMyQueriesMiddleware
             endforeach;
             Log::debug($prep);
         endforeach;
-        Log::debug('LogMyQueries_STARTED');
+        Log::debug('LogMyQueries_END');
     }
 }

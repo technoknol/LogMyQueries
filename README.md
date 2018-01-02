@@ -20,4 +20,13 @@ Add the middleware to the `$middleware` array in the `app/Http/Kernel.php` file 
         ];
 
 If you have `APP_DEBUG=true` and `APP_LOG_LEVEL=debug` you'll see all executed queries are being added in log file at `storage/logs/laravel.log`.
+
+## Example from laravel.log
+    [2018-01-02 09:20:26] local.DEBUG: LogMyQueries_STARTED  
+    [2018-01-02 09:20:26] local.DEBUG: select * from "users" where "id" = 102 limit 1  
+    [2018-01-02 09:20:26] local.DEBUG: LogMyQueries_STARTED  
+    [2018-01-02 09:20:28] local.DEBUG: LogMyQueries_STARTED  
+    [2018-01-02 09:20:28] local.DEBUG: select * from "users" where "id" = 102 limit 1  
+    [2018-01-02 09:20:28] local.DEBUG: update "users" set "remember_token" = "1q8nbeh2k6MkneGz31DCJaVJd4H1cBroBBLs6yCfQUoGQaFBSuVLFt7Br7mr" where "id" = "102"  
+
 That's it. You're done.

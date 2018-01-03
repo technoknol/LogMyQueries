@@ -5,7 +5,15 @@
     "keywords": [
         "Middleware",
         "Laravel",
-        "Log Queries"
+        "Log Queries",
+        "laravel",
+        "laravel-middleware",
+        "php",
+        "debug",
+        "laravel-log",
+        "query",
+        "logging",
+        "log",
     ],
     "require": {
         "php": "^5.5.9 || ^7.0"

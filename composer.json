@@ -13,7 +13,7 @@
         "laravel-log",
         "query",
         "logging",
-        "log",
+        "log"
     ],
     "require": {
         "php": "^5.5.9 || ^7.0"

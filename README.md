@@ -2,6 +2,7 @@
 Laravel middleware to Log all queries being fired to Laravel log file. Uses Laravel's default monolog library and sniffs Eloquent queries
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/technoknol/LogMyQueries/blob/master/LICENCE)
+[![StyleCI](https://github.styleci.io/repos/111226754/shield?branch=master)](https://github.styleci.io/repos/111226754)
 
 ## Install via composer
 Run the following command to pull in the latest version:
